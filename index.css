@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+   text-align: center;
+    background-color: rgb(58, 58, 58);
+    font-family: sans-serif;
+}
+p{
+    font-size: larger;
+}
+nav{
+    background-color: rgb(48, 47, 47);
+    
+    width: 100%;
+    top: 0px;
+    left: 0px;
+   
+}
+.top button:active,
+.top button:hover { background-color: rgb(32, 32, 32);
+
+}
+.top a{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+.logo {
+    
+    height: 50px;
+    padding: 0 ;
+    text-align: left;
+    
+}
+.main img{
+    width: 300px;
+    float: left;
+    
+}
+.top button{
+    display: inline;
+                text-align: center;
+                font-weight: bold;
+                width: 200px;
+                height: 80px;
+                border: 0px;
+                background-color: transparent;
+             
+                font-size: 30px;
+                margin-left: 0;
+                margin-right: 0;
+               
+                padding: 0;
+               
+                
+    }
+.main img{
+   padding-right: 100px;
+    
+}
+.main h1{
+    font-weight: bold;
+    padding: 10px;
+}
+
+ .main {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    
+}
+.h_logo{
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+}
+
+.main p{
+    text-align: center;
+}
+.p_kk img{
+    padding-right: 100px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    border-radius: 20px;
+ }
+ .p_kk p{
+    margin-left: 500px;
+    margin-right: 500px;
+ }
+ .p_kk button{
+    float: left;
+    margin-right: 500px;
+    margin-left: 500px;
+   padding: 10px;
+ }
+ .p_kk a{
+    list-style-type: none;  
+    text-decoration: 0; 
+    color: black;
+}
+.p_kk {
+
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 0;
+     
+        text-align: justify;
+        padding: 50px;
+        background-color: rgb(20, 20, 20);
+        color: white;
+}
+.p_k img{
+    padding-left: 100px;
+    width: 300px;
+    height: 300px;
+    float: right;
+    border-radius: 20px;
+ }
+ .p_k p,
+ .p_k h1{
+    margin-left: 500px;
+    margin-right: 500px;
+ }
+ .p_k button{
+    float: right;
+    margin-right: 500px;
+    margin-left: 500px;
+   padding: 10px;
+ }
+.p_k {
+        text-align: right;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: justify;
+        padding: 50px;
+        color: white;
+}
+.p_k a{
+    list-style-type: none;  
+    text-decoration: 0; 
+    color: black;
+}
+
+.footer{
+   background-color: rgb(48, 47, 47);
+   box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.bottom{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer{
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    padding: 70px 0;
+
+}
+
+.line h1{
+    color: white;
+ text-transform: uppercase;
+ position: relative;
+}
+.line h1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(255, 0, 0);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.line{
+    text-align: left;
+    width: 30%;
+    padding: 0 15px;
+} 
+.bottom a{
+    display: block;
+    list-style-type: none;  
+    text-decoration: 0;
+    color: rgb(102, 102, 102);
+    display: list-item;
+}
